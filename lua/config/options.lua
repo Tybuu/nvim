@@ -80,6 +80,8 @@ vim.opt.cmdheight = 0
 -- Changes neovim inner terminal shell to fish
 vim.o.shell = '/usr/bin/fish'
 
+vim.o.wrap = false
+
 -- Neovide Settings
 vim.o.guifont = 'RobotoMono Nerd Font:h14'
 vim.g.neovide_remember_window_size = false
