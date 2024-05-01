@@ -74,6 +74,9 @@ vim.opt.hlsearch = true
 -- Columnbar on the right
 vim.opt.colorcolumn = '80'
 
+-- Remove gap between status line and bottom of screen
+vim.opt.cmdheight = 0
+
 -- Changes neovim inner terminal shell to fish
 vim.o.shell = '/usr/bin/fish'
 
