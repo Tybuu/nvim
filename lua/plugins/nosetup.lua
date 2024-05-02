@@ -20,7 +20,9 @@ return {
   {
     'nfrid/due.nvim',
     config = function()
-      require('due_nvim').setup {}
+      require('due_nvim').setup {
+        use_clock_time = true,
+      }
     end,
   },
   {
