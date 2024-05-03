@@ -1,7 +1,7 @@
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
-vim.keymap.set('n', '<leader>o', '<cmd>Oil<CR>', { desc = 'Oil' })
+vim.keymap.set('n', '<leader>o', '<cmd>Oil<CR>', { desc = '[O]il' })
 
 -- Diagnostic keymaps
 vim.keymap.set('n', '[d', vim.diagnostic.goto_prev, { desc = 'Go to previous [D]iagnostic message' })
@@ -42,4 +42,4 @@ vim.keymap.set('n', '<Leader>m', function()
     local text = string.gsub(current_line, '%[X%]', '[ ]')
     vim.api.nvim_set_current_line(text)
   end
-end)
+end, { desc = '[M]ark current Markdown checklist' })
