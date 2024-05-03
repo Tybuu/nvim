@@ -2,6 +2,9 @@ return {
   { -- Autocompletion
     'hrsh7th/nvim-cmp',
     event = 'InsertEnter',
+    opts = {
+      vim.api.nvim_set_hl(0, 'CmpGhostText', { link = 'Comment', default = true }),
+    },
     dependencies = {
       -- Snippet Engine & its associated nvim-cmp source
       {
@@ -101,6 +104,11 @@ return {
 
           -- For more advanced Luasnip keymaps (e.g. selecting choice nodes, expansion) see:
           --    https://github.com/L3MON4D3/LuaSnip?tab=readme-ov-file#keymaps
+        },
+        experimental = {
+          ghost_text = {
+            hl_group = 'CmpGhostText',
+          },
         },
         sources = {
           -- { name = 'buffer' },
