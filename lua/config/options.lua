@@ -87,7 +87,6 @@ vim.bo.tabstop = 2
 
 -- Neovide Settings
 vim.o.guifont = 'RobotoMono Nerd Font:h14'
-vim.g.neovide_remember_window_size = false
 vim.g.neovide_transparency = 0.7
 
 if vim.g.neovide then
