@@ -84,6 +84,9 @@ vim.o.shell = '/usr/bin/fish'
 vim.o.wrap = false
 
 vim.bo.tabstop = 2
+vim.bo.shiftwidth = 2
+vim.o.expandtab = true
+vim.bo.softtabstop = 2
 
 -- Neovide Settings
 vim.o.guifont = 'RobotoMono Nerd Font:h14'
