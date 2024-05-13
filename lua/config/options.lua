@@ -90,7 +90,7 @@ vim.bo.softtabstop = 2
 
 -- Neovide Settings
 vim.o.guifont = 'RobotoMono Nerd Font:h14'
-vim.g.neovide_transparency = 0.7
+vim.g.neovide_transparency = 0.8
 vim.g.neovide_cursor_animate_command_line = false
 
 if vim.g.neovide then
