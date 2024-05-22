@@ -72,7 +72,7 @@ vim.opt.scrolloff = 10
 vim.opt.hlsearch = true
 
 -- Columnbar on the right
-vim.opt.colorcolumn = '80'
+-- vim.opt.colorcolumn = '80'
 
 -- Remove gap between status line and bottom of screen
 vim.opt.cmdheight = 0
@@ -92,6 +92,8 @@ vim.bo.softtabstop = 2
 vim.o.guifont = 'RobotoMono Nerd Font:h14'
 vim.g.neovide_transparency = 0.8
 vim.g.neovide_cursor_animate_command_line = false
+vim.g.neovide_cursor_animation_length = 0.06
+vim.g.neovide_scroll_animation_length = 0.15
 
 if vim.g.neovide then
   vim.keymap.set('v', '<C-S-c>', '"+y') -- Copy
