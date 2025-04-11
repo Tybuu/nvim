@@ -24,7 +24,7 @@ return {
           jupynium = {
             name = "jupynium",
             module = "blink.compat.source",
-            score_offset = 1000, -- show at a higher priority than lsp
+            score_offset = 100, -- show at a higher priority than lsp
           },
         },
       },
