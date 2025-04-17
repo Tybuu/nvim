@@ -7,6 +7,7 @@ return {
         lua = { "stylua" },
         nix = { "alejandra" },
         rust = { "rustfmt" },
+        typst = { "typstyle" },
       },
     },
   },
