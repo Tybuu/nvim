@@ -5,9 +5,6 @@ return {
       config = function()
         require("jupynium").setup({
           use_default_keybindings = false,
-          textobjects = {
-            use_default_keybindings = false,
-          },
         })
         vim.api.nvim_create_user_command("JupyStart", function()
           local servername = vim.fn.eval("v:servername")
