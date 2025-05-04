@@ -24,7 +24,8 @@ return {
         rust_analyzer = {},
         clangd = {},
         nil_ls = {},
-        tinymist = {}
+        tinymist = {},
+        bashls = {}
       },
     },
   },
@@ -43,7 +44,8 @@ return {
         "c",
         "cpp",
         "python",
-        "nix"
+        "nix",
+        "bash"
       })
     end,
   },
