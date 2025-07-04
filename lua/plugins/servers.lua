@@ -25,7 +25,10 @@ return {
         clangd = {},
         nil_ls = {},
         tinymist = {},
-        bashls = {}
+        bashls = {},
+        tsserver = {},
+        html = {},
+        cssls = {},
       },
     },
   },
@@ -45,7 +48,11 @@ return {
         "cpp",
         "python",
         "nix",
-        "bash"
+        "bash",
+        "javascript",
+        "typescript",
+        "html",
+        "css"
       })
     end,
   },
