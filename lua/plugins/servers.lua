@@ -52,8 +52,15 @@ return {
         "javascript",
         "typescript",
         "html",
-        "css"
+        "css",
+        "java"
       })
     end,
   },
+  {
+    "mfussenegger/nvim-jdtls",
+    opts = function (_, opts)
+      table.insert(opts.cmd, string.format("--jvm-arg=-javaagent:%s", "/home/tybuu/.config/nvim/lombok.jar"))
+    end
+  }
 }
