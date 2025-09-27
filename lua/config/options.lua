@@ -4,3 +4,7 @@
 --
 vim.opt.scrolloff = 999
 vim.opt.shell = "fish"
+
+if vim.g.neovide then
+  vim.g.neovide_refresh_rate = 180
+end

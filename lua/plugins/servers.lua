@@ -21,7 +21,11 @@ return {
       ---@type lspconfig.options
       servers = {
         pyright = {},
-        rust_analyzer = {},
+        -- rust_analyzer = {
+        --   cargo = {
+        --     allFeatures = true;
+        --   }
+        -- },
         clangd = {},
         nil_ls = {},
         tinymist = {},
@@ -29,6 +33,7 @@ return {
         tsserver = {},
         html = {},
         cssls = {},
+        gopls = {},
       },
     },
   },
@@ -53,7 +58,8 @@ return {
         "typescript",
         "html",
         "css",
-        "java"
+        "java",
+        "go"
       })
     end,
   },
