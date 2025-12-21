@@ -8,13 +8,6 @@
 -- * override the configuration of LazyVim plugins
 return {
   {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "catppuccin",
-    },
-  },
-
-  {
     "neovim/nvim-lspconfig",
     ---@class PluginLspOpts
     opts = {
@@ -34,6 +27,7 @@ return {
         html = {},
         cssls = {},
         gopls = {},
+        gleam = {},
       },
     },
   },
@@ -59,7 +53,8 @@ return {
         "html",
         "css",
         "java",
-        "go"
+        "go",
+        "gleam",
       })
     end,
   },

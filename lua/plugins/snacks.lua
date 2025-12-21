@@ -10,4 +10,7 @@ return {
       { "<leader>fF", LazyVim.pick("files"), desc = "Find Files (root)" },
     },
   },
+  {
+    "LunarVim/bigfile.nvim",
+  },
 }
