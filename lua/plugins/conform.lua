@@ -8,6 +8,7 @@ return {
         nix = { "alejandra" },
         rust = { "rustfmt" },
         typst = { "typstyle" },
+        verilog = { "verible-verilog-format" },
       },
     },
   },

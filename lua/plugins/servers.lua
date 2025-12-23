@@ -28,6 +28,7 @@ return {
         cssls = {},
         gopls = {},
         gleam = {},
+        verible = {},
       },
     },
   },
@@ -55,6 +56,7 @@ return {
         "java",
         "go",
         "gleam",
+        "verilog"
       })
     end,
   },
