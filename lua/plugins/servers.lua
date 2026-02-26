@@ -29,6 +29,9 @@ return {
         gopls = {},
         gleam = {},
         verible = {},
+        qmlls = {
+          cmd = {"qmlls", "-E"}
+        },
       },
     },
   },
