@@ -29,6 +29,7 @@ return {
         gopls = {},
         gleam = {},
         verible = {},
+        lua_ls = {},
         qmlls = {
           cmd = {"qmlls", "-E"}
         },
