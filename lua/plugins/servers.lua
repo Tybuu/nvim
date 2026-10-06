@@ -19,7 +19,14 @@ return {
         --     allFeatures = true;
         --   }
         -- },
-        clangd = {},
+        clangd = {
+        cmd = {
+            "clangd",
+            "--query-driver=/nix/store/**/bin/arm-none-eabi-*",
+            "--background-index",
+            "--clang-tidy",
+          },
+        },
         nil_ls = {},
         tinymist = {},
         bashls = {},
